@@ -18,6 +18,12 @@ console.log(firstName);
 /*MULTILINE
 COMMENT*/
 
-{
-  //nEW SCOPE
-}
+var myString = "Hello World!*76 ";
+console.log(typeof myString)
+
+var myNumber = 42;
+
+console.log(typeof myNumber);
+
+var newVariable;
+console.log(newVaria)
