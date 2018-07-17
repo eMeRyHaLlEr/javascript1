@@ -1,57 +1,28 @@
-//decalare a variable
-var firstName;
-
-//define variable
-firstName = " Emery"
-
-//defoine and decalare
-var lastName = "Haller"
-
-console.log(firstName,lastName);
+let myFavs = [ 'Ready Player One', 25, true, 2018];
+console.log(myFavs)
 
 
+let myMovies = [];
 
-firstName= "SuperMan"
+let favorite = [ 'Ready Player One' , 'Wade Watts'];
 
-console.log(firstName);
-//SINGLE LINE COMMENT
-/*MULTILINE
-COMMENT*/
+let secondFav = ['Pirates of the Carribean: Curse of the Black Pearl', 'Captain Jack Sparrow' ];
+aa
+let thirdFav = ['Star Wars Ep. VI : Return of The Jedi', 'Luke Skywalker'];
 
-var myString = "Hello World!*76 ";
-console.log(typeof myString)
+let fourthFav = ['FairyTail: Dragon Cry', 'Natsu Dragneel'];
 
-var myNumber = 42;
-var myOtherNumber = new Number (42);
+let fifthFav = ['Indiana Jones: Temple of Doom', 'Short Round'];
 
-console.log(myNumber, myOtherNumber);
+myMovies.push(favorite,secondFav,thirdFav,fourthFav,fifthFav);
 
-var newVariable;
-console.log(newVariable )
+console.log(myMovies)
 
-console.log("hey there, " + firstName);//es5
-console.log(`Hey There, ${lastName} How are you`);
-let newString = 'it Worked';
-console.log('after' , newString);
-{
-let newString = 'It didnt work';
-console.log('inside', newString)
-};
-newString = 'it almost worked'
-console.log('Outside', newString);
+let titles = []
 
-const age = 18
-console.log(age )
+titles.push(myMovies[0][0],myMovies[1][0],myMovies[2][0],myMovies[3][0],myMovies[4][0]);
+console.log(titles);
+let favAndLeast = []
 
-let today = new Date();
-console.log(today)
-
-let bDay = new Date('06-01-2000');
-console.log(bDay)
-
-//alert('hey do a thing')// 1direct COMMENT
-//const isReady = confirm ('hey person I do you like me ')
-//alert(isReady)
-
-let username = prompt(' wht is u Called', 'Boi');
-console.log(username)
+favAndLeast.push(myMovies[0],myMovies[4]);
+console.log(favAndLeast)
