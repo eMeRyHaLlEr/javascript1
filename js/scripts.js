@@ -52,14 +52,10 @@ function calcLiftimeSupply(currentAge,dailyUse, maxAge){
         alert('Please Give Me A Number!!!')
     } 
     else{
-        if(currentAge < maxAge ){
+        
     let supply = (maxAge-currentAge)*(dailyUse * 365);
     alert(`you will need ${supply} slices of Bread to last until you're ${maxAge}`);}
-    else{
-        alert('Sorry You're dead');
-    }
     
-}
 }
 let age = prompt('How Old Are You?')
 let Use = prompt('How often do you eat bred per day?')
