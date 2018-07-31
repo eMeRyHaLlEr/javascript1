@@ -1,11 +1,11 @@
-// let loginForm = document.forms.loginForm
-// let emailInput = loginForm.email
-// let passwordInput = loginForm.password;
+ let loginForm = document.forms.loginForm
+let emailInput = loginForm.email
+let passwordInput = loginForm.password;
 
-// emailInput.addEventListener("keydown", e => {
-//     console.log(e.target.value);
-//    // e.target.value //what is being typed
-// });
+ emailInput.addEventListener("keydown", e => {
+   console.log(e.target.value);
+    // e.target.value //what is being typed
+ });
 
 // loginForm.addEventListener("submit", e => {
 //     e.preventDefault();
